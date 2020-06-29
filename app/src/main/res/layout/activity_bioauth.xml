@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fido"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HMS FIDO Kit Kotlin Example"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btn_text_finger_auth_without_crpObj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnFingerAuthenticateWithoutCryptoObjectClicked"
+        android:background="@drawable/gray_button"
+        android:textColor="#FEE715"
+        android:text="Fingerprint Auth Without Crypto Object"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_text_finger_auth_with_crpObj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnFingerAuthenticateWithCryptoObjectClicked"
+        android:background="@drawable/gray_button"
+        android:text="Fingerprint Auth With Crypto Object"
+        android:textColor="#FEE715"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/btn_text_face_auth_with_crpObj"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="btnFaceAuthenticateWithoutCryptoObjectClicked"
+        android:background="@drawable/gray_button"
+        android:text="Face Auth Without Crypto Object"
+        android:textColor="#FEE715"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="#F9FBE7"
+        android:gravity="top"
+        android:minLines="5"
+        android:padding="5dp"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:availableupdate:4.0.3.301@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/355bd49b9dc491643e7732783e6613b5/jetified-availableupdate-4.0.3.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/355bd49b9dc491643e7732783e6613b5/jetified-availableupdate-4.0.3.301/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/availableupdate/4.0.3.301/da39a3ee5e6b4b0d3255bfef95601890afd80709/availableupdate-4.0.3.301-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/availableupdate/4.0.3.301/da39a3ee5e6b4b0d3255bfef95601890afd80709/availableupdate-4.0.3.301-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

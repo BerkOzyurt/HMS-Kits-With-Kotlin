@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\New folder\\AppDue\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kk-rKZ\\values-kk-rKZ.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\b84158088\\.gradle\\caches\\transforms-2\\files-2.1\\e0d32f36ac4c7a4c17d8fdb3977b2e3c\\jetified-scan-1.1.3.301\\res\\values-kk-rKZ\\values-kk-rKZ.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,102,172,232,297,365",
+                        "endColumns": "46,69,59,64,67,51",
+                        "endOffsets": "97,167,227,292,360,412"
+                    }
+                }
+            ]
+        }
+    ]
+}

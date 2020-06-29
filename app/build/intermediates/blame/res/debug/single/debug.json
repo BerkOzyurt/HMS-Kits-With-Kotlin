@@ -1,0 +1,218 @@
+[
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_translate.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_translate.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ml.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\ml.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bioauth.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_bioauth.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_scan_kit.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_scan_kit.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_scankit.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\scankit.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon_record.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\icon_record.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_hms_kits.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_hms_kits.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_message_list_item.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\message_list_item.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_nearby.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_nearby.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_fg_appscheck.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\fg_appscheck.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_fg_urlcheck.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\fg_urlcheck.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gray_button_selected.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\gray_button_selected.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_push.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_push.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_authservice.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\authservice.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_agc.jpg.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\agc.jpg"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_fg_sysintegrity.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\fg_sysintegrity.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_card_image.jpg.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\card_image.jpg"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_safety.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_safety.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_fido.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\fido.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_safety.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\safety.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_locationkit.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\locationkit.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_location.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_location.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_bank_card.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_bank_card.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_awareness.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\awareness.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pushkit.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\pushkit.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gray_button_2.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\gray_button_2.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gray_button.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\gray_button.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_fg_userdetect.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\fg_userdetect.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_text_recognition.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_text_recognition.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg.jpg.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\bg.jpg"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bg_layout.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\bg_layout.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_awareness.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_awareness.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_huawei.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\huawei.png"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_fg_wifidetect.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\fg_wifidetect.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_item_list_app.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\item_list_app.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\New folder\\AppDue\\app\\build\\intermediates\\res\\merged\\debug\\drawable_mapkit.png.flat",
+        "source": "D:\\New folder\\AppDue\\app\\src\\main\\res\\drawable\\mapkit.png"
+    }
+]

@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ly_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:background="@android:color/white">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ml"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HMS ML Kit Kotlin Example"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/txt_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Title"/>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginBottom="50dp"
+        android:background="@android:color/white"
+        android:layout_alignParentBottom="true"/>
+
+    <LinearLayout
+        android:id="@+id/ly_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="horizontal">
+
+ <!--       <TextView
+            android:id="@+id/txt_sysintegrity"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="ntegrity"/>
+            -->
+
+        <TextView
+            android:id="@+id/txt_appscheck"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gray_button_2"
+            android:drawablePadding="3dp"
+            android:textColor="#FEE715"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Apps Check" />
+
+        <TextView
+            android:id="@+id/txt_urlcheck"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textColor="#FEE715"
+            android:background="@drawable/gray_button_2"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="URL Check" />
+
+        <TextView
+            android:id="@+id/txt_userdetect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gray_button_2"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:textColor="#FEE715"
+            android:padding="5dp"
+            android:text="User Detect"/>
+
+        <TextView
+            android:id="@+id/txt_wifidetect"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/gray_button_2"
+            android:drawablePadding="3dp"
+            android:gravity="center"
+            android:textColor="#FEE715"
+            android:padding="5dp"
+            android:text="Wifi Detect" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/div_tab_bar"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@android:color/white"
+        android:layout_above="@id/ly_tab_bar"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ly_top_bar"
+        android:layout_above="@id/div_tab_bar"
+        android:id="@+id/ly_content">
+
+    </FrameLayout>
+
+</RelativeLayout>

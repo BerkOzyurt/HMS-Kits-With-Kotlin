@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:awareness:1.0.4.301@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ad5535739404946249ceef637cdb003/jetified-awareness-1.0.4.301/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4ad5535739404946249ceef637cdb003/jetified-awareness-1.0.4.301/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/awareness/1.0.4.301/da39a3ee5e6b4b0d3255bfef95601890afd80709/awareness-1.0.4.301-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.huawei.hms/awareness/1.0.4.301/da39a3ee5e6b4b0d3255bfef95601890afd80709/awareness-1.0.4.301-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

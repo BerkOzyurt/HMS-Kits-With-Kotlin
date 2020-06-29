@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\New folder\\AppDue\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-my-rMM\\values-my-rMM.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\b84158088\\.gradle\\caches\\transforms-2\\files-2.1\\e0d32f36ac4c7a4c17d8fdb3977b2e3c\\jetified-scan-1.1.3.301\\res\\values-my-rMM\\values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,105,181,238,314,394",
+                        "endColumns": "49,75,56,75,79,51",
+                        "endOffsets": "100,176,233,309,389,441"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "122,172,248,305,381,461",
+                        "endColumns": "49,75,56,75,79,51",
+                        "endOffsets": "167,243,300,376,456,508"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\b84158088\\.gradle\\caches\\transforms-2\\files-2.1\\fee2085cb608a495dd72962c894cc2e7\\jetified-push-4.0.3.301\\res\\values-my-rMM\\values-my-rMM.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "66",
+                        "endOffsets": "117"
+                    }
+                }
+            ]
+        }
+    ]
+}

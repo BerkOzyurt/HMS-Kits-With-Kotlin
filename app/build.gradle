@@ -1,0 +1,118 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.huawei.agconnect'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    defaultConfig {
+        applicationId "com.huawei.appdue"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    compileOptions {
+        sourceCompatibility = 1.8
+        targetCompatibility = 1.8
+    }
+
+    lintOptions{
+        checkReleaseBuilds false
+        abortOnError false
+    }
+
+    signingConfigs {
+        release {
+            storeFile file('xxx.jks')
+            keyAlias 'xxx'
+            keyPassword 'xxx'
+            storePassword 'xxx'
+            v1SigningEnabled true
+            v2SigningEnabled true
+        }
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            signingConfig signingConfigs.release
+            debuggable true
+        }
+    }
+
+    packagingOptions {
+        // Exclude file to avoid
+        // Error: Duplicate files during packaging of APK
+        exclude 'META-INF/DEPENDENCIES'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/license.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/notice.txt'
+        exclude 'META-INF/ASL2.0'
+        exclude 'META-INF/services/javax.annotation.processing.Processor'
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'com.huawei.agconnect:agconnect-auth:1.2.0.300'
+    implementation 'com.huawei.hms:nearby:4.0.4.300'
+    implementation 'com.huawei.hms:location:4.0.2.300'
+    implementation 'com.huawei.hms:push:4.0.3.301'
+    implementation 'com.huawei.hms:maps:4.0.0.302'
+    implementation 'com.huawei.hms:scan:1.1.3.301'
+    implementation 'com.huawei.hms:fido-bioauthn:4.0.3.300'
+    implementation  'com.huawei.hms:awareness:1.0.4.301'
+    implementation 'com.huawei.hms:safetydetect:4.0.3.300'
+
+    //Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.2.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.1.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.4.1'
+    implementation(
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.4.1'],
+            [group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.4.1'],
+    )
+
+    //AccountKit
+    implementation 'com.huawei.hms:hwid:4.0.1.300'
+    implementation "com.squareup.okhttp3:okhttp:3.14.2"
+    implementation 'com.squareup.okio:okio:1.17.2'
+    implementation 'com.auth0:java-jwt:3.8.2'
+    implementation 'com.auth0:jwks-rsa:0.8.3'
+    implementation 'commons-codec:commons-codec:1.13'
+
+    //MLKit
+    implementation 'com.huawei.hms:ml-computer-translate:1.0.4.300' //Translate
+    implementation 'com.huawei.hms:ml-computer-language-detection:1.0.4.300' //LanguageDetect
+    implementation 'com.huawei.hms:ml-computer-voice-asr-plugin:1.0.4.300' //Text Recognition
+    implementation 'com.huawei.hms:ml-computer-vision-bcr:2.0.0.300' //BankCard Base SDK
+    implementation 'com.huawei.hms:ml-computer-card-bcr-plugin:2.0.0.300'  //BankCard Pulgin
+}

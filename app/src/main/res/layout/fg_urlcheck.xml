@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/fg_call_urlCheck_text"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:hint="URL"
+        android:textSize="12sp" />
+
+
+    <EditText
+        android:id="@+id/fg_call_urlResult"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Result"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:editable="false"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/fg_call_url_btn"
+        android:layout_width="fill_parent"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/gray_button"
+        android:textColor="#FEE715"
+        android:textAllCaps="false"
+        android:text="Check URL"
+        android:textSize="12sp" />
+
+</LinearLayout>

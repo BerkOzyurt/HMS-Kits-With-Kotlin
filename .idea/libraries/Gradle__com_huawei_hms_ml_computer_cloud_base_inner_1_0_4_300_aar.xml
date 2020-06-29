@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.huawei.hms:ml-computer-cloud-base-inner:1.0.4.300@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d83a51a9bdc389588b31758c55faa5b8/jetified-ml-computer-cloud-base-inner-1.0.4.300/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d83a51a9bdc389588b31758c55faa5b8/jetified-ml-computer-cloud-base-inner-1.0.4.300/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

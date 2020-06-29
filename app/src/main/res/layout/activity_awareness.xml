@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root_scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/awareness"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HMS Awareness Kit Kotlin Example"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/capture_getTimeCategories"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Time Categories"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/capture_getHeadsetStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Headset Status"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/capture_getLocation"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Location"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/capture_getBehaviorStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Behavior Status"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/capture_getLightIntensity"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Ambient Light Intensity"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/capture_getWeatherStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Weather Status"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/capture_getBluetoothStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Bluetooth Status"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/capture_getBeaconStatus"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Get Beacon Status"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <Button
+            android:id="@+id/clear_log"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/gray_button"
+            android:text="Clear Log"
+            android:textColor="#FEE715"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"/>
+
+        <TextView
+            android:id="@+id/logView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_marginTop="20dp"
+            android:background="#F9FBE7"
+            android:textColor="#000000"
+            android:gravity="top"
+            android:minLines="5"
+            android:padding="5dp"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</ScrollView>

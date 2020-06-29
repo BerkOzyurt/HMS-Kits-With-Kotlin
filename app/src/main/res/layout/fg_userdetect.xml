@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/fg_user_name"
+                android:layout_width="220dp"
+                android:layout_height="40dp"
+                android:hint="Mail"
+                android:textSize="12sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <EditText
+                android:id="@+id/fg_call_userdetect_password"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:textSize="12sp" />
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/fg_login_btn"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/gray_button"
+        android:textColor="#FEE715"
+        android:textAllCaps="false"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:text="Login"
+        android:textSize="12sp" />
+</LinearLayout>

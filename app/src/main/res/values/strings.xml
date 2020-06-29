@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">App Due</string>
+    <string name="error_missing_permissions">Cannot start without required permissions</string>
+    <string name="begin_to_n_chat">Begin to\n chat!</string>
+    <string name="friend_name">Friend\'s name:</string>
+    <string name="my_name">My name: </string>
+    <string name="send">send</string>
+    <string name="input_message_here">Input message here</string>
+
+    <string name="location_lat_long">Latitude: %1$s \n Longitud: %2$s</string>
+
+    <string name="app_type_virus">Virus App</string>
+    <string name="app_type_risk">Risk App</string>
+    <string name="app_type_unknown">Unknown App</string>
+</resources>

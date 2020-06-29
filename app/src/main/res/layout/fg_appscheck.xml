@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/fg_enable_appscheck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/gray_button"
+        android:textColor="#FEE715"
+        android:textAllCaps="false"
+        android:text="Enable Apps Check" />
+
+    <Button
+        android:id="@+id/fg_verify_appscheck"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_button"
+        android:textColor="#FEE715"
+        android:textAllCaps="false"
+        android:text="Verify Apps Check Enabled" />
+
+    <Button
+        android:id="@+id/fg_get_malicious_apps"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_button"
+        android:textColor="#FEE715"
+        android:textAllCaps="false"
+        android:text="Get Harmful Apps List" />
+
+    <TextView
+        android:id="@+id/fg_appschecktextView"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/white" />
+
+    <ListView
+        android:id="@+id/fg_list_app"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" />
+
+
+</LinearLayout>

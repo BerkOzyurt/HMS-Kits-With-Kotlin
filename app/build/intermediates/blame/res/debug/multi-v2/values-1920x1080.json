@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\New folder\\AppDue\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-1920x1080\\values-1920x1080.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\b84158088\\.gradle\\caches\\transforms-2\\files-2.1\\0350fbe3cbe6be38dd8ead6fab9d8325\\jetified-ml-computer-voice-asr-plugin-1.0.4.300\\res\\values-1920x1080\\values-1920x1080.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,111,164,217,274,325",
+                        "endColumns": "55,52,52,56,50,57",
+                        "endOffsets": "106,159,212,269,320,378"
+                    }
+                }
+            ]
+        }
+    ]
+}
